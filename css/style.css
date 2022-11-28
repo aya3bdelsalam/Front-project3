@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(224, 210, 193) !important;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(204, 150, 79) !important;
+}
+a:hover{
+    color: white !important ;
+}
+.navbar-brand{
+    transition: 0.3s;
+}
+.navbar-brand:hover{
+   text-shadow: 10px 10px 15px white, -10px -10px 15px white;
+}
+.my-img,.my-img1{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+}
+.my-img{
+    background-image:url(../images/gif5.gif);
+}
+.my-img1{
+    background-image:url(../images/gif6.gif);
+}
